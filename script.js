@@ -34,7 +34,6 @@ document.getElementById("generate").addEventListener("click", function () {
         return generatePassword();
     }
 
-// add an if statement checking if charcterset includes undefined if so return to function
         console.log(passwordLength);
         console.log(passwordSpecialCharacters);
         console.log(passwordNumericCharacters);
