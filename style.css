@@ -125,6 +125,7 @@ textarea {
 }
 h1, h2 {
     font-weight: bolder;
+    text-align: center;
 }
 #copyText {
     background-color:silver;
@@ -143,11 +144,27 @@ h1, h2 {
 
 @media (max-width: 500px) {
   .btn {
+    font-size: 0.8rem;
+  }
+  h1, h2 {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 439px) {
+  .btn {
+    font-size: 0.6rem;
+  }
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 380px) {
+  .btn {
     font-size: 0.4rem;
     margin: 0;
     padding: 10px;
   }
   h1, h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
